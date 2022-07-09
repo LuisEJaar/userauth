@@ -19,5 +19,7 @@ const UserScheme = new Mongoose.Schema({
         default: "Basic", 
         required: true,
     }
-
 })
+
+const User = Mongoose.model()
+module.export = User
